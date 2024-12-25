@@ -1,11 +1,11 @@
 slideshow-container {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     padding: 20px 0;
 }
 
 .slide-image {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     height: auto;
     border-radius: 10px;
