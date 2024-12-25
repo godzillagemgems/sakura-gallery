@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color:pink;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .App {
+    text-align: center;
+  }
+
+  /* App.css */
+.text-effect-wrapper {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .text {
+    font-size: 4rem; /* ขนาดตัวอักษร */
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; /* ใช้ฟอนต์ที่อ่านง่าย */
+    color: #000000; /* สีข้อความหลัก */
+    text-shadow: 
+      2px 2px 4px rgba(0, 0, 0, 0.3), /* เงาด้านล่าง */
+      -2px -2px 6px rgba(255, 255, 255, 0.5), /* เงาด้านบน */
+      0px 0px 10px rgba(209, 76, 133, 0.7); /* เงาเรืองแสง */
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease, text-shadow 0.3s ease; /* เพิ่มเอฟเฟกต์เคลื่อนไหว */
+    cursor: pointer;
+  }
+  
+  /* เอฟเฟกต์เมื่อ Hover */
+  .text:hover {
+    transform: scale(1.1); /* ขยายเล็กน้อย */
+    text-shadow: 
+      4px 4px 8px rgba(0, 0, 0, 0.5), 
+      -4px -4px 12px rgba(255, 255, 255, 0.6), 
+      0px 0px 15px rgb(247, 0, 0);
+  }
+  
+
+  
